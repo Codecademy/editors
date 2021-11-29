@@ -1,0 +1,11 @@
+{
+  "extends": "@codecademy/tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "noUnusedParameters": false,
+    "sourceMap": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false
+  },
+  "exclude": ["**/node_modules"]
+}
